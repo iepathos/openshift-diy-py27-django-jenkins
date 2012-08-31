@@ -63,8 +63,9 @@ Application Setup
 
 * Note
 =======
-If you change the Django application name (in the repo it's named `app`) you will also need to update the `.app_name` file with the new name in order for the OpenShift start/stop scripts to work.
-
+* If you change the Django application name (in the repo it's named `app`) you will also need to update the `.app_name` file with the new name in order for the OpenShift start/stop scripts to work.
+* If you don't want to use Jenkins CI, delete everything in `.openshift/action_hooks/pre_build`
+* Don't change the virtualenv folder name
 
 * Contributors
 ==============
