@@ -66,7 +66,8 @@ Application Setup
 * If you change the Django application name (in the repo it's named `app`) you will also need to update the `.app_name` file with the new name in order for the OpenShift start/stop scripts to work.
 * If you don't want to use Jenkins CI, delete everything in `.openshift/action_hooks/pre_build`
 * Don't change the virtualenv folder name
+* Currently hooks are not mentioned for Gunicorn. Need some free time to do it. 
 
 * Contributors
 ==============
-@ehazlett, @zemanel, Nam Duong (Red Hat)
+ehazlett, zemanel, Nam Duong (Red Hat)
