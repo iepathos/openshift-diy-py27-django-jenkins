@@ -3,6 +3,4 @@
 
 # uWSGI
 
-if [  -f $OPENSHIFT_TMP_DIR/uswgi.pid ]; then
 kill `cat $OPENSHIFT_TMP_DIR/uwsgi.pid`
-fi
