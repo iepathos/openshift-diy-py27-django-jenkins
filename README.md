@@ -10,6 +10,7 @@ How to configure Openshift DIY for Django
 You are done! Enjoy. Email me if you got any queries.
 
 ### Contributors ###
-This repo is forked from [ehazlett/openshift-diy-py27-django][link2]
+1. This repo is forked from [ehazlett/openshift-diy-py27-django][link2]
+2. Nam Duong, Redhat
 
 [link2]: https://github.com/ehazlett/openshift-diy-py27-django
