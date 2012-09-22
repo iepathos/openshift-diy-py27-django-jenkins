@@ -14,3 +14,5 @@ You are done! Enjoy. Email me if you got any queries.
 2. Nam Duong, Redhat
 
 [link2]: https://github.com/ehazlett/openshift-diy-py27-django
+
+This projecct currently works on uWSGI. Gunicorn support will be added if I get some free time.
